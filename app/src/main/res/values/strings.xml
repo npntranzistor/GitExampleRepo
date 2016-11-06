@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TryGitApplication</string>
+    <string name="hello_string">Git Application Text</string>
+</resources>
