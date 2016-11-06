@@ -19,7 +19,12 @@
 
         <activity
             android:name=".SecondActivity"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+
+        <activity   android:name=".FourActivity"
+                    android:label="@string/FourText"
+                    android:parentActivityName=".SecondActivity">
+        </activity>
 
     </application>
 

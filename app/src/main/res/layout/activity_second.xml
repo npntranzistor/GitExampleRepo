@@ -19,4 +19,14 @@
         android:id="@+id/textView2"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Four Activity GO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:onClick="SecondClick"
+        android:id="@+id/button3" />
 </RelativeLayout>
